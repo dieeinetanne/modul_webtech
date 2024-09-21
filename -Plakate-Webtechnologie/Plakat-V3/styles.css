@@ -1,0 +1,156 @@
+@import url("https://use.typekit.net/pic0zpp.css");
+
+body {
+    color: black;
+    background-color: blanchedalmond;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    overflow: hidden;
+}
+
+.grid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 2fr 120px 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 120px 2fr 2fr 2fr 2fr 2fr;
+    transform: rotate(-17deg);
+    margin-top: -100px;
+}
+
+.item1quer { 
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row: 3;
+    background-color: red;
+}
+
+.item2hoch {
+    grid-row-start: 4;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: red;
+}
+
+.p1 {
+    font-size: 7vw;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin: 0;
+    padding: 0;
+    line-height: 130%;
+    transform: translateY(5%);
+}
+
+.header1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin: 0;
+    padding: 0;
+    font-size: 4.8vw;
+    align-self: end;
+    line-height: 0%;
+}
+
+.header2 {
+    color: blanchedalmond;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 4.8vw;
+    text-align: center;
+    text-justify: start;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+}
+
+.header3 {
+    color: blanchedalmond;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+}
+
+.header4 {
+    color: blanchedalmond;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+}
+
+.container1 {
+    margin-left: 11%;
+    margin-bottom: 0;
+    margin-top: 11%;
+    line-height: 90%;
+    text-align: justify;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.Autor {
+    margin-top: 0;
+    font-size: 1.35vw;
+}
+
+.text {
+    font-size: 0.75vw;
+    margin-top: 3%;
+    justify-items: center;
+}
+
+.years {
+    font-size: 2.5vw;
+    margin-top: 0;
+    line-height: 40%;
+}
+
+.Balken {
+    background-color: black;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    margin-left: -230px;
+    margin-right: -20px;
+}
+
+.Balken1 {
+    background-color: black;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    margin-left: -230px;
+    margin-right: -20px;
+}
+
+@media (max-width: 782px) {
+    .grid {
+      grid-template-columns: 1fr 1fr 60px 1fr 1fr 1fr 1fr 1fr;
+    }
+  }

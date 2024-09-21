@@ -1,0 +1,78 @@
+@import url("https://use.typekit.net/pic0zpp.css");
+
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+.container1 {
+    color: blanchedalmond;
+}
+
+.grid { 
+    display: grid;
+    grid-template-rows: repeat(17, 6%);
+    grid-template-columns: repeat(17, 6%);
+    height: 100vh;
+    width: 100vw;
+    border: thin solid red;
+}
+
+
+.T {
+    color: rgb(255, 0, 0);
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 400px;
+    grid-row-start: 3;
+    grid-row-end: 13;
+    grid-column-start: 5;
+    grid-column-end: 13;
+    line-height: 0%;
+}
+
+h2 {
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+.Artikel {
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 10px;
+}
+
+.Adjektiv {
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 10px;
+}
+
+.Balken {
+    background-color: black;
+    grid-row-start: 8;
+    grid-column-start: 1;
+    grid-column-end: 18;
+}
+
+.Balken1 {
+    background-color: black;
+    grid-row-start: 10;
+    grid-column-start: 1;
+    grid-column-end: 18;
+}
+
+.Item1 {
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    grid-row-start: 3;
+    grid-column-start: 5;
+    margin: 0;
+    padding: 0;
+}
