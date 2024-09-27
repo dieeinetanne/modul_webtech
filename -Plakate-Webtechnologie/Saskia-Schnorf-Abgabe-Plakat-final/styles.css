@@ -20,7 +20,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: 2fr 3.5fr 2fr 4fr 1.5fr 2fr 1fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 4fr 2fr 4fr 1.5fr 2fr 1fr 2fr 2fr 2fr;
     grid-template-columns: 2fr 2fr 3fr 2fr 3fr 2fr 2fr 2fr 6fr;
     transform: scale(1.1) rotate(-17deg);
     margin-left: -3%;
@@ -140,9 +140,11 @@ margin-bottom: 0.5%;
         height: 100vw;
         display: grid;
         grid-template-rows: 4fr 2fr 2fr 2fr 1.5fr 2fr 1fr 2fr 2fr 2fr;
-        grid-template-columns: 6fr 5fr 3fr 5fr 4fr 10fr;
-        transform: scale(1) rotate(-17deg); 
+        grid-template-columns: 7fr 5fr 3fr 5fr 4fr 10fr;
+        transform: scale(1.2) rotate(-17deg); 
         overflow: hidden;
+        margin-top: -3%;
+        margin-left: -8%;
         margin: 0;
     }
 
