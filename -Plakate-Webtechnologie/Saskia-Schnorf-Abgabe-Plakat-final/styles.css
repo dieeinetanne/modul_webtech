@@ -20,10 +20,10 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: 2fr 120px 2fr 2fr 70px 2fr 55px 2fr 4fr 2fr;
-    grid-template-columns: 2fr 2fr 200px 120px 200px 2fr 2fr 2fr 6fr;
+    grid-template-rows: 2fr 3.5fr 2fr 4fr 1.5fr 2fr 1fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 3fr 2fr 3fr 2fr 2fr 2fr 6fr;
     transform: scale(1.1) rotate(-17deg);
-    margin-left: -1%;
+    margin-left: -3%;
     margin-top: -5%;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .Typography {
-    font-size: 70px;
+    font-size: 4.2vw;
     grid-area: 2/3/3/6;
     color: blanchedalmond;
     line-height: 80%;
@@ -76,7 +76,7 @@ body {
     align-items: center;
     font-size: 4vw;
     letter-spacing: 1px;
-    margin-bottom: 1%;
+margin-bottom: 0.5%;
 }
 
 .BalkenTypografie {
@@ -108,7 +108,7 @@ body {
     font-size: 5vw;
     align-items: start;
     margin: 0;
-    margin-bottom: 6%;
+    margin-bottom: 9%;
 }
 
 .Autor {
@@ -136,18 +136,23 @@ body {
 /*IPad-Mini 768x1024*/
 @media (min-width: 768px) and (max-width: 1300px) {
     .grid {
-        width: 1400px;
-        height: 1200px;
+        width: 100vw;
+        height: 100vw;
         display: grid;
-        grid-template-rows: 2fr 100px 2fr 2fr 70px 1.5fr 50px 1.5fr 5fr 2fr;
-        grid-template-columns: 2fr 2fr 2.5fr 110px 2.5fr 2fr 2fr 2fr 2fr;
-        transform: scale(1) rotate(-17deg);
-        margin-left: -18%;
+        grid-template-rows: 2fr 3.5fr 2fr 4fr 1.5fr 2fr 1fr 2fr 2fr 2fr;
+        grid-template-columns: 4fr 4fr 1fr 4fr 12fr;
+        transform: scale(1) rotate(0); 
         overflow: hidden;
+        margin: 0;
+    }
+
+    .item1quer {
+        grid-area: 2/2/3/5;
+        background-color: red;
     }
 
     .item2hoch {
-        grid-area: 3/4/9/5;
+        grid-area: 3/3/9/4;
         background-color: red;
     }
 
@@ -165,7 +170,8 @@ body {
     }
 
     .Typography {
-        font-size: 8.5vw;
+        grid-area: 2/3/3/4;
+        font-size: 1vw;
     }
 
     .Typografie {
