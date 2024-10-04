@@ -241,16 +241,14 @@ body {
     transform: translateX(-9%) translateY(-20%);
   }
 
-  .Artikel {
-    font-size: 8vw;
-    grid-area: 1/3/2/7;
-    margin-left: 8%;
-    transform: translateY(5%);
-  }
-
-  .New {
-    font-size: 12vw;
-    margin-left: -8%;
+  @keyframes bigTdiagonal {
+    0% {
+      transform: translateY(100%) translateX(0%);
+    }
+  
+    100% {
+      transform: translateY(-20%) translateX(-9%);
+    }
   }
 
   .Typography {
@@ -263,21 +261,21 @@ body {
   .Movement {
     font-size: 4vw;
     grid-area: 6/6/7/10;
-    animation-duration: 20s;
+    animation-duration: 17s;
   }
 
   .BalkenMovement {
     grid-area: 6/1/7/10;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
   }
 
   @keyframes movement-diagonal {
     from {
-      transform: translateX(-95vw);
+      transform: translateX(-100vw);
     }
   
     to {
-      transform: translateX(55vw);
+      transform: translateX(40vw);
     }
   }
 
@@ -296,7 +294,7 @@ body {
     letter-spacing: 0px;
     margin-bottom: 0.8%;
     grid-area: 4/3/5/10;
-    animation-duration: 16s;
+    animation-duration: 13s;
   }
 
   .BalkenTypografie {
@@ -310,8 +308,21 @@ body {
     }
   
     to {
-      transform: translateX(80vw);
+      transform: translateX(65vw);
     }
+  }
+
+  .Artikel {
+    font-size: 8vw;
+    grid-area: 1/3/2/7;
+    margin-left: 8%;
+    transform: translateY(5%);
+    animation-duration: 2.2s;
+  }
+
+  .New {
+    font-size: 12vw;
+    margin-left: -8%;
   }
 
   .container1 {
@@ -319,6 +330,27 @@ body {
     margin-top: 22%;
     margin-left: 23%;
     transform: scale(1.3);
+    animation-duration: 2.2s;
+  }
+
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+  
+    80% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+  
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
   }
   
   
