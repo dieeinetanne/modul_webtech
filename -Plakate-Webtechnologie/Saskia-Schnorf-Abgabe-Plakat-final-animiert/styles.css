@@ -245,7 +245,7 @@ body {
     0% {
       transform: translateY(100%) translateX(0%);
     }
-  
+
     100% {
       transform: translateY(-20%) translateX(-9%);
     }
@@ -273,7 +273,7 @@ body {
     from {
       transform: translateX(-100vw);
     }
-  
+
     to {
       transform: translateX(40vw);
     }
@@ -283,7 +283,7 @@ body {
     from {
       transform: translateX(-400vw);
     }
-  
+
     to {
       transform: translateX(1vw);
     }
@@ -306,7 +306,7 @@ body {
     from {
       transform: translateX(-120vw);
     }
-  
+
     to {
       transform: translateX(65vw);
     }
@@ -339,13 +339,13 @@ body {
       filter: blur(12px);
       opacity: 0;
     }
-  
+
     80% {
       -webkit-filter: blur(12px);
       filter: blur(12px);
       opacity: 0;
     }
-  
+
     100% {
       -webkit-filter: blur(0px);
       filter: blur(0px);
@@ -360,49 +360,61 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: 8fr 5fr 4fr 2fr 2fr 1.5fr 4fr;
+    grid-template-rows: 8fr 5fr 1fr 1fr 1fr 1fr 4fr;
     grid-template-columns: 3fr 2fr 2fr 2fr 2fr 2fr 2fr 4fr;
     transform: scale(1.5) rotate(0);
     margin-left: -2%;
   }
 
   .Movement {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
+    z-index: 1;
     grid-area: 5/6/6/10;
   }
-  
+
   .BalkenMovement {
-    grid-area: 6/1/7/10;
+    z-index: 1;
+    grid-area: 5/1/6/10;
+  }
+
+  .Typografie {
+    grid-area: 3/1/4/10;
+    font-size: 5vw;
+  }
+
+  .BalkenTypografie {
+    grid-area: 3/1/4/10;
   }
 
   .Big-T {
     font-size: 110vw;
-    grid-area: 2/2/7/6;  }
+    grid-area: 2/2/7/6;
+  }
 
-    .container1 {
-      grid-area: 2/4/3/9;
-      z-index: 4;
-      transform: translateX(18%) translateY(-30%);
-      display: flex;
-      justify-content: end;
-    }
+  .container1 {
+    grid-area: 2/4/3/9;
+    z-index: 4;
+    transform: translateX(18%) translateY(-46%);
+    display: flex;
+    justify-content: end;
+  }
 
-    .Artikel {
-      grid-area: 1/2/2/6;
-      display: flex;
-      justify-content: end;
-      font-size: 8vw;
-      transform: translateX(17%);
-    }
+  .Artikel {
+    grid-area: 1/2/2/6;
+    display: flex;
+    justify-content: end;
+    font-size: 9vw;
+    transform: translateX(17%);
+  }
 
-    .New {
-      font-size: 10vw;
-      line-height: 65%;
-    }
+  .New {
+    font-size: 13vw;
+    line-height: 75%;
+  }
 
-    .Typography {
-      font-size: 8vw;
-      grid-area: 2/2/3/6;
-      transform: translateX(15%);
-    }
+  .Typography {
+    font-size: 8vw;
+    grid-area: 2/2/3/6;
+    transform: translateX(15%);
+  }
 }
