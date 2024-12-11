@@ -1,0 +1,114 @@
+@import url("https://use.typekit.net/pic0zpp.css");
+
+body {
+    background-color: rgb(73, 160, 173);
+    overflow: hidden;
+    font-weight: 300;
+    height: 100vh;
+    width: 100vw;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10rem;
+align-items: center;
+}
+
+.child1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+align-items: center;
+margin-left: 20%;
+margin-right: 20%;
+text-align: center;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+}
+
+.child2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+align-items: center;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 5%;
+text-align: center;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 8.5s both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 8.5s both;
+}
+
+.child3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+align-items: center;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 5%;
+text-align: center;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 11.5s both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 11.5s both;
+}
+
+.child4 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+align-items: center;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 5%;
+text-align: center;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 15s both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 15s both;
+}
+
+
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
