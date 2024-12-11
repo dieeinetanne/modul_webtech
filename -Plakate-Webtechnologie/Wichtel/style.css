@@ -4,7 +4,7 @@ body {
   background-color: rgb(73, 160, 173);
   overflow: hidden;
   font-weight: 300;
-  height: 100vh;
+  height: 100vw;
   width: 100vw;
 }
 
@@ -15,7 +15,7 @@ body {
   font-family: "roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 5vw;
+  font-size: 3vw;
   align-items: center;
 }
 
